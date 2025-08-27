@@ -101,3 +101,49 @@ let advantages = [
 ];
 
 // Opret dit dataobjekt til footerens indhold herunder
+
+// Footer data (Figma-style)
+let footer = {
+  brand: {
+    title: "Easy Camper",
+    tagline: ["When", "Passion", "Meets", "Comfort."],
+  },
+  columns: [
+    {
+      title: "Discover the Network",
+      links: [
+        { label: "Where to shop", href: "#" },
+        { label: "Tour Guided", href: "#" },
+        { label: "Our Tours", href: "#" },
+        { label: "About Us", href: "#" },
+      ],
+    },
+    {
+      title: "Become a Manager",
+      links: [
+        { label: "Join your Pairing", href: "#" },
+        { label: "Offer your Service", href: "#" },
+        { label: "Are you a guide?", href: "#" },
+      ],
+    },
+    {
+      title: "Assistance",
+      links: [
+        { label: "Support Center", href: "#" },
+        { label: "FAQs", href: "#" },
+        { label: "Cancellation Options", href: "#" },
+        { label: "Reliability and Security", href: "#" },
+      ],
+    },
+  ],
+  bottom: {
+    copyright: "EasyCamper. All rights reserved.",
+    links: [
+      { label: "About", href: "#" },
+      { label: "Site Map", href: "#" },
+      { label: "Terms", href: "#" },
+      { label: "Privacy Policy", href: "#" },
+      { label: "Teams", href: "#" },
+    ],
+  },
+};
